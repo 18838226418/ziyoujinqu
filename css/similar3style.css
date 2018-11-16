@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+html,body{
+	width: 100%;
+	height: auto;
+}
+section{
+	width: 1200px;
+}
+/* 此处开始是top_bar样式 */
+#wrap{
+	height: 34px;
+	border: 1px solid #ebebeb;
+	background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+}
+.top_bar{
+	height: 36px;
+}
+.thome{
+	font-size: 14px;
+	color: #b62929;
+    line-height: 36px;
+}
+.top_bar_nav{
+	width: 550px;
+	height: 36px;
+}
+.top_bar_nav ul{
+	margin-right: -10px;
+}
+.list_a{
+	line-height: 36px;
+    display: inline-block;
+    padding-left: 16px;
+    margin: 0 10px;
+    position: relative;
+	font-size: 14px;
+}
+.a_now{
+	color: #c33;
+}
+.list_a:hover{
+	color: #c33;
+}
+.nav_ul_li{
+	float: left;
+}
+.nav_ul_li:hover .nav_list_case{
+	display: block;
+}
+.list_a2{
+	padding-right: 17px;
+	background: url(../img/防沉迷.img/icon-round-off-down-arrow.e07e488f.png) no-repeat 76px 10px;
+}
+.list_a3{
+	padding-right: 16px;
+	background: url(../img/防沉迷.img/icon-round-off-down-arrow.e07e488f.png) no-repeat 60px 10px;
+}
+.nav_list_case{
+	position: absolute;
+    right: 260px;
+    top: 34px;
+	overflow: hidden;
+    background: #f7f7f7;
+    border: 1px solid #ebebeb;
+	box-sizing: border-box;
+    outline: none;
+	display: none;
+	z-index: 20;
+}
+.nav_list_ol{
+	width: 374px;
+	padding-top: 10px;
+}
+.nav_ol_li:nth-child(2){
+	border: none;
+}
+.nav_ol_li{
+	width: 49.5%;
+    float: left;
+    border-right: 1px solid #ebebeb;
+}
+.title_p{
+	width: 100%;
+	text-indent: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 48px;
+    line-height: 48px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #ebebeb;
+}
+.nav_ol_li span{
+	width: 100%;
+	text-indent: 25px;
+	height: 40px;
+	display: block;
+}
+.nav_ol_li span a{
+	font-size: 14px;
+	line-height: 40px;
+}
+.navcase1{
+	right: 170px;
+}
+.navbox{
+	width: 720px;
+}
+.nav_list_case1{
+	width: 359px;
+    border-right: 1px solid #ebebeb;
+}
+.nav_list_case1 .nav_list_ol{
+	width: 339px;
+	height: 240px;
+	padding: 20px 10px;
+}
+.nav_list_case1 .nav_list_ol li{
+	border: none;
+}
+.nav_ol_li span a:hover{
+	color: #c33;
+}
+.nav_ol_lis span{
+	text-indent: 0;
+	width: auto;
+	padding-left: 40px;
+}
+.pc{
+	background: url(../img/防沉迷.img/icon-menu-pc.a7f45352.png) no-repeat 10px 10px;
+}
+.ph{
+	background: url(../img/防沉迷.img/icon-menu-mobile.9668a105.png) no-repeat 10px 10px;
+}
+.all_img{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.look_more a{
+	width: 128px;
+    height: 38px;
+    display: inline-block;
+    line-height: 38px;
+    text-align: center;
+    background: #ebebeb;
+	margin: 0 auto;
+	color: #8a8a8a;
+    transition: background .3s ease;
+}
+#wrap .look_more a:hover{
+    background: #e1e1e1;
+}
+
+.pb{
+	padding: 20px 0;
+	font-size: 14px;
+	line-height: 21px;
+}
+.pb span{
+	margin-right: 20px;
+}
+.pb img{
+	vertical-align: middle;
+}
+.navcase2{
+	right: 85px;
+	padding: 10px;
+}
+.imgcase{
+	width: 167px;
+	height: 167px;
+	overflow: hidden;
+	background: url(../img/防沉迷.img/vcode-bg.52899fc1.png) no-repeat 0px 0px;
+}
+.imgcase img{
+	display: block;
+	margin: 16.5px auto 0;
+}
+.imgtxt{
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: center;
+}
+.navcase3{
+	padding: 10px;
+	right: 0;
+}
+.navcase3 span a{
+	line-height: 35px;
+	width: 65px;
+	display: block;
+	font-size: 14px;
+}
+#wrap .navcase3 span a:hover{
+	color: #c33;
+}
+/* top_bar部分样式到此结束 */
+/* 此处开始是导航部分样式 */
+.nav_box{
+	height: 99px;
+}
+.nav_box > a > img{
+	margin-top: 25px;
+	float: left;
+}
+.nav_box_case{
+	width: 1014px;
+	height: 99px;
+	line-height: 99px;
+	text-align: right;
+}
+.nav_box_case a{
+    transition: all 0.3s ease;
+	font-size: 20px;
+	margin-left: 55px;
+	font-weight: 600;
+}
+.nav_now{
+	color: #b62929;
+}
+.nav_box_case a:hover{
+	color: #b62929;
+}
+/* 导航部分样式到此结束 */
+/* 此处开始是底部部分 */
+.wrap3{
+    background: #000000;
+	padding: 20px 0;
+}
+.wallow_foot{
+	font-size: 14px;
+	height: 72px;
+}
+.foot_logo{
+	width: 340px;
+	text-align: right;
+}
+.last{
+	width: 805px;
+	height: 72px;
+}
+.last_p1 a{
+	line-height: 24px;
+    color: #cdb670;
+    margin-right: 30px;
+}
+.last_p2{
+	color: #868686;
+	margin-top: 5px;
+}
+.last_p2 a{
+	color: #868686;
+	margin-right: 10px;
+}
+/* 底部到此结束 */
+.fix_right{
+	width: 58px;
+	height: 146px;
+	right: 0;
+	bottom: 120px;
+	position: fixed;
+}

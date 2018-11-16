@@ -1,0 +1,33 @@
+.zhizuoren-body{
+	background: url(../img/制作人微博.img/c0fb9836jw1fazeoq9jcrj21hc0u0trr.jpg);
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: left top;
+	height: 5000px;
+}
+.zhizuoren-top-img{
+	background: url(../img/制作人微博.img/c0fb9836jw1fazf6632saj20pk08cq69.jpg);
+}
+.warp .zhizuoren{
+	background: #323233;
+	color: white;
+}
+.warp .zhizuoren-h{
+	background: #101010;
+	color: white;
+}
+.weibo-right-box1-right span {
+	color: white;
+}
+.weibo-left-box1-top p{
+	color: white;
+}
+.weibo-left-box1 ul span{
+	color: white;
+}
+.weibo-left-nav h1{
+	color: white;
+}
+.weibo-left-box5 img{
+	height: 3460px;
+}

@@ -1,0 +1,205 @@
+body{
+	background: url(../img/cdk兑换.img/bg.jpg) no-repeat center 40px;
+	overflow-x: hidden;
+}
+.cdk-connten{
+	width: 100%;
+	height: 1500px;
+	overflow: hidden;
+}
+.cdk-nav{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+}
+.cdk-nav li{
+	float: left;
+	color: #dedede;
+    height: 60px;
+    line-height: 60px;
+	width: 120px;
+    font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+.cdk-nav li p{
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.cdk-nav li p:hover{
+	color: #DB4300;
+}
+.cdk-nav li span:hover{
+	color: #DB4300;
+}
+.cdk-logo{
+	margin: 0 180px;
+}
+.cdk-dis{
+	display: none;
+}
+.cdk-nav li:hover .cdk-dis{
+	display: block;
+}
+.bg1{
+	width: 1200px;
+	height: 400px;
+	margin: -60px auto 0;
+    background: url(../img/cdk兑换.img/bg1.jpg) no-repeat left top;
+}
+.bg2{
+	width: 1200px;
+	height: 400px;
+	margin: 0px auto;
+    background: url(../img/cdk兑换.img/bg2.jpg) no-repeat left top;
+}
+.cdk-text{
+	width: 1200px;
+	margin: 0 auto;
+	color: white;
+}
+.cdk-container{
+	width: 1200px;
+	height: 844px;
+	margin: 0 auto;
+}
+.cdk-container-left{
+	width: 880px;
+    min-height: 674px;
+	padding: 30px 35px;
+    background: #000;
+    float: left;
+	position: relative;
+}
+.cdk-container-left h3{
+	font-size: 16px;
+    padding-bottom: 14px;
+	color: white;
+    border-bottom: #2b2b2b 1px solid;
+}
+.cdk-container-left p{
+	position: absolute;
+    display: block;
+    width: 1000px;
+    text-align: center;
+    top: 117px;
+    font-size: 16px;
+	color: white;
+}
+.cdk-container-left p:hover{
+	color: #DB4300;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.cdk-container-left-main{
+	width: 550px;
+	height: 385px;
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -275px;
+}
+.cdk-container-left-main .div{
+	padding: 10px 0;
+	padding-right: 5px;
+	width: 550px;
+	height: 38px;
+}
+.cdk-container-left-main .text{
+	display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #e55725;
+    padding-right: 10px;
+    text-align: right;
+    float: left;
+}
+.input{
+	padding: 0 10px;
+    line-height: 38px;
+    height: 38px;
+    width: 390px;
+    display: block;
+    float: right;
+    font-size: 14px;
+    background: #ddd;
+    border-radius: 2px;
+}
+.button{
+	display: inline-block;
+    width: 243px;
+    height: 58px;
+    background: url(../img/cdk兑换.img/cdk_btn.png) no-repeat;
+	background-position: 0px 0px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 20px;
+    color: #fff;
+	margin: 40px 0 0px 220px;
+	cursor: pointer;
+}
+.button:hover{
+	background-position: 0 -58px;
+}
+.cdk-container-right{
+	width: 239px;
+    float: right;
+}
+.cdk-container-right-a{
+	display: block;
+	overflow: hidden;
+    height: 90px;
+    line-height: 90px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    text-indent: 40px;
+	transition: all 0.3s;
+	margin-bottom: 2px;
+	background: rgba(184,65,37,0.8);
+	position: relative;
+}
+.cdk-container-right-a:hover {
+	background: #cf4f30;
+    text-indent: 0;
+	cursor: pointer;
+}
+.cdk-container-right-a i{
+	display: block;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    margin: 23px 0 0 42px;
+}
+.cdk-container-right-a:hover i{
+	margin-left: -80px;
+	transition: 0.3s;
+}
+.cdki1{
+	background: url(../img/cdk兑换.img/icon_2.png) no-repeat;
+}
+.cdki2{
+	background: url(../img/cdk兑换.img/icon_3.png) no-repeat;
+}
+.cdk-erweima{
+	width: 209px;
+	height: 280px;
+	background: #1d1212;
+	padding: 20px 0 0 30px;
+}
+.cdk-erweima a img{
+	width: 180px;
+	height: 180px;
+	display: block;
+}
+.cdk-erweima p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+.cdk-erweima font{
+	font-size: 13px;
+}

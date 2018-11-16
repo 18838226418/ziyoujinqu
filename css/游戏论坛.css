@@ -1,0 +1,205 @@
+.team-header{
+	width: 100%;
+    height: 118px;
+    background: url(../img/游戏论坛.img/header_bg.jpg) no-repeat scroll center top transparent;
+    z-index: 999;
+    border-bottom: 2px solid #f4732f;
+}
+.team-body{
+	background: url(../img/游戏论坛.img/bg.jpg) no-repeat scroll center top #1b1b1b;
+}
+.team-heart{
+	width: 1200px;
+	height: 118px;
+	margin: 0 auto;
+}
+.team-header-log{
+	background: url(../img/游戏论坛.img/header_logo.png) repeat 0 0;
+    width: 240px;
+    height: 116px;
+	float: left;
+}
+.team-header-back{
+	height: 40px;
+    width: 106px;
+    text-align: center;
+    line-height: 40px;
+    margin: 51px 40px 0 20px;
+    float: left;
+    font-size: 18px;
+    border: 1px solid #dd6b2f;
+}
+.team-header-right{
+	width: 80px;
+	height: 31px;
+	margin-top: 42px;
+	float: right;
+    font-size: 14px;
+    line-height: 31px;
+	color: #e0f1df;
+    padding: 0 6px;
+}
+.team-banner{
+	width: 1198px;
+	height: 354px;
+	overflow: hidden;
+	position: relative;
+	margin: 20px auto;
+}
+.team-banner ul{
+	width: 3594px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.team-banner ul li{
+	width: 1198px;
+	height: 354px;
+	float: left;
+}
+.team-banner-button{
+	width: 59px;
+	height: 15px;
+	position: absolute;
+	right: 10px;
+	bottom: 12px;
+}
+.team-banner-button span{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	background: white;
+	border-radius: 50%;
+	margin: 0 4px;
+}
+.team-banner .team-banner-button-active{
+	width: 28px;
+	background: #F3622F;
+	border-radius: 8px;
+}
+.team-connten{
+	width: 1198px;
+	height: 773px;
+	margin: 20px auto 0;
+}
+.team-connten-left{
+	float: left;
+}
+.team-connten-left li{
+	padding: 10px 5px 10px 10px;
+	margin: 0 20px 1px;
+	background: url(../img/游戏论坛.img/banner_bg.png);
+	width: 845px;
+	height: 50px;
+}
+.team-connten-left li:hover{
+	background: url(../img/游戏论坛.img/list_bg_hover.png);
+}
+.team-connten-left i{
+	width: 48px;
+	height: 48px;
+	float: left;
+	margin-right: 10px;
+}
+.team-connten-left span{
+	width: 787px;
+	height: 50px;
+	float: left;
+	color: #f0f0f0;
+}
+.team-connten-left span h5{
+	font-size: 14px;
+	font-weight: normal;
+}
+.team-connten-left p a{
+	font-size: 12px;
+	color: #AAAAAA;
+	margin-right: 10px;
+	line-height: 35px;
+}
+.team-connten-left p em{
+	font-size: 12px;
+	color: #AAAAAA;
+	background: url(../img/游戏论坛.img/huifu.png) no-repeat;
+	padding-left:20px;
+	margin: 15px 9px 0 5px;
+	line-height: 12px;
+	float: right;
+}
+.team-connten-left p .liulan{
+	background: url(../img/游戏论坛.img/liulan.png) no-repeat;
+}
+.team-more{
+	width: 860px;
+	height: 40px;
+	border: 1px solid #dd6b2f;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	margin: 10px 0 0 20px;
+	cursor: pointer;
+}
+.team-more:hover {
+	background: #dd6b2f;
+	transition: 1s;
+}
+.team-more:hover span{
+	color: white;
+}
+.team-more span{
+	color: #eca37d;
+}
+.team-connten-right{
+	width: 280px;
+	height: 616px;
+	float: left;
+}
+.team-connten-right-box1{
+	width: 280px;
+	height: 58px;
+	background: url(../img/游戏论坛.img/new_post.jpg) no-repeat;
+    margin-bottom: 10px;
+}
+.team-connten-right-box2{
+	width: 280px;
+	height: 38px;
+	background: url(../img/游戏论坛.img/side_bar_tit.png) no-repeat;
+	font-size: 18px;
+	font-weight: 100;
+	text-indent: 18px;
+	margin-top: 20px;
+}
+.team-connten-right-box2 a{
+	color: #ffae00;
+}
+.team-connten-right-box3{
+	width: 280px;
+	height: 120px;
+}
+.team-connten-right-box3 li{
+	width: 140px;
+	height: 51px;
+	float: left;
+	background: url(../img/游戏论坛.img/black.png) repeat;
+	color: white;
+	font-size: 14px;
+	line-height: 51px;
+	text-align: center;
+}
+.team-connten-right-box3 li:hover{
+	background: url(../img/游戏论坛.img/list_bg_hover.png);
+}
+.team-erweima{
+	width: 280px;
+	height: 280px;
+	margin-top: 20px;
+	background: url(../img/游戏论坛.img/b_LOGO.png) no-repeat;
+	
+}
+.team-footer-text{
+	margin: 40px auto 20px ;
+	font-size: 12px;
+	color: #AAAAAA;
+	text-align: center;
+}

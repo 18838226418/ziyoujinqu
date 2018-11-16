@@ -1,0 +1,94 @@
+/* 此处开始是主要内容样式 */
+.main_case{
+	height: 600px;
+	margin-top: 60px;
+}
+.main_l{
+	width: 790px;
+	height: 550px;
+}
+.main_r{
+	width: 340px;
+	height: 550px;
+	padding: 0 35px;
+	background: url(../img/防沉迷.img/bg-sigin-login.1bb8cd17.jpg) no-repeat 0px 0px;
+}
+.trans_p{
+	padding-top: 80px;
+	font-size: 18px;
+}
+.input_case{
+	margin: 25px 0;
+}
+.input_case input{
+	display: inline;
+	width: 280px;
+	height: 53px;
+    padding-left: 60px;
+    font-size: 16px;
+    color: #929292;
+    border: 1px solid #eae2c8;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #ffffff;
+}
+.imglogo{
+	background: #eae2c8;
+	border-right: 1px solid #eae2c8;
+	width: 43px;
+	height: 54px;
+	top: 0;
+	left: 0;
+}
+.imglogo img{
+	display: block;
+	margin: 13.5px auto 0;
+}
+.input_case1{
+	height: 53px;
+	text-align: center;
+	line-height: 53px;
+	background: #b62929;
+	transition: background 0.3s ease;
+	cursor: pointer;
+}
+.input_case1:hover{
+	background: #d25b5b;
+}
+.input_case1 a{
+	color: #fff;
+	font-size: 24px;
+}
+.flo_a{
+	padding: 0 20px;
+	height: 21px;
+}
+.flo_a a{
+	text-decoration: underline;
+	color: #808080;
+	font-size: 16px;
+	line-height: 21px;
+}
+/* 主要内容样式到此结束 */
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.pa{
+	position: absolute;
+}
+.pr{
+	position: relative;
+}
+.maratuo{
+	margin: 0 auto;
+}
+#wrap a{
+	color: black;
+}
+.nav_item{
+	color: black;
+}
+	

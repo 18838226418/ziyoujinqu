@@ -1,0 +1,689 @@
+.weibo-body{
+	background: url(../img/官方微博.img/006Bpgz6ly1fk7jteu3x0j31kw0v37wv.jpg);
+	background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: left top;
+	height: 5000px;
+}
+.weiboheader{
+	width: 100%;
+	height: 48px;
+    border-top: 2px solid #fa7d3c;
+	background: rgba(243,243,243,0.94);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 15;
+}
+.weiboheart{
+	width: 1280px;
+	margin: 0 auto;
+}
+.weibo-heart-log{
+	display: block;
+	float: left;
+	width: 140px;
+	height: 48px;
+	vertical-align: top;
+	background: url(../img/官方微博.img/WB_logo.png) no-repeat center 40%;
+	background-position: 50% 40%;
+}
+.weibo-header-input{
+	width: 468px;
+	height: 28px;
+	margin: 9px 0 0 10px;
+	float: left;
+	border: 1px solid #ccc;
+	position: relative;
+}
+.weibo-header-input input{
+	width: 425px;
+	padding: 4px 10px 4px 10px;
+    height: 20px;
+    line-height: 20px;
+	background: transparent;
+	color: #808080;
+	font-size: 12px;
+	float: left;
+}
+.weibo-header-input .dis-inpt-a{
+	display: block;
+	float: left;
+	width: 18px;
+	height: 24px;
+	color: #696e78;
+	font-size: 18px;
+	font-weight: 100;
+}
+.weibo-header-input .dis-inpt{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 468px;
+	height: 330px;
+	background: white;
+	border: 1px solid #ccc;
+	display: none;
+}
+.weibo-header-input .dis-inpt-a{
+	width: 444px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #fa7d3c;
+}
+.dis-inpt li{
+	height: 30px;
+	padding-left: 20px;
+	font-size: 11px;
+	color: #333;
+	line-height: 30px;
+	display: block;
+}
+.dis-inpt li a{
+	color: #333;
+}
+.dis-inpt ul .dis-inpt-hover{
+	background: rgba(243,243,243);
+	color: #fa7d3c;
+}
+.weibo-header-input-active{
+	border:1px solid #fa7d3c;
+	background: white;
+}
+.dis-inpt span{
+	display: block;
+	float: left;
+	width: 13px;
+	height: 13px;
+	color: white;
+	border-radius: 9px;
+	line-height: 13px;
+	text-align: center;
+	margin: 8px 10px 0 0;
+	background:#696e78;
+}
+.dis-inpt .weibo-navred{
+	background: #df3e3e;
+}
+.dis-inpt .weibo-navoreng{
+	background: #fa7d3c;
+}
+.weibo-nav{
+	width: 320px;
+	height: 26px;
+	margin: 11px 20px 11px 0;
+	float: left;
+}
+.weibo-nav ul li{
+	float: left;
+	margin-left: 26px;
+}
+.weibo-header-right{
+	float: right;
+}
+.weibo-header-right a{
+	color: #696e78;
+	font-size: 18px;
+}
+.weibo-header-right a em{
+	margin-right: 5px;
+}
+.weibo-header-right span{
+	font-size: 14px;
+}
+.weibo-login{
+	width: 117px;
+	height: 23px;
+	float: left;
+    margin: 11px 0 10px 0;
+}
+.weibo-login span{
+	line-height: 26px;
+    padding: 0 10px;
+}
+.weibo-header-right a:hover{
+	color: #DB4300;
+}
+.weibo-login span:nth-child(1){
+	border-right: 1px solid #ccc;
+}
+.weibo-heart{
+	width: 920px;
+	margin: 70px auto 0;
+}
+.weibo-top{
+	width: 920px;
+	margin-bottom: 20px;
+}
+.weibo-top-img{
+	overflow: hidden;
+	width: 920px;
+	height: 300px;
+	background: url(../img/官方微博.img/006Bpgz6ly1frvs6wqe0qj30pk08cnej.jpg) no-repeat;
+}
+.weibo-top-img-log{
+	width: 100px;
+	height: 100px;
+	margin: 48px auto 0px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 50%;
+	padding: 4px;
+	position: relative;
+}
+.weibo-top-img-log img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.weibo-top-img-log-i{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	border-radius: 50%;
+	background: url(../img/官方微博.img/icon_co.png) no-repeat;
+	background-position: -30px 0;
+}
+.weibo-top-img-text{
+	margin-top: 6px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+.weibo-top-img-text span{
+	font-size: 22px;
+	font-weight: normal;
+}
+.weibo-top-img-text font{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: top;
+	background: url(../img/官方微博.img/icon.png) no-repeat;
+	background-position: -100px -50px;
+	margin-top: 8px;
+}
+.weibo-top-img-guan-left a:hover{
+	background: -webkit-linear-gradient(top, #f4722e 0%,#f05807 100%);
+}
+.weibo-top-img-guan-left span:hover{
+	background: -webkit-linear-gradient(top, #f4722e 0%,#f05807 100%);
+}
+.weibo-top-img-guan-right a:hover{
+	background: -webkit-linear-gradient(top, #5f636d 0%,#535861 100%);
+}
+.weibo-top-img-guan-right span:hover{
+background: -webkit-linear-gradient(top, #5f636d 0%,#535861 100%);
+}
+.weibo-top-img-guanzhu{
+	width: 300px;
+	height: 34px;
+	margin: 0 auto;
+	margin-top: 15px;
+	color: white;
+	line-height: 34px;
+	text-align: center;
+}
+.weibo-top-img-guan-left{
+	width: 133px;
+	height: 34px;
+	float: left;
+}
+.weibo-top-img-guanzhu a{
+	float: left;
+	width: 104px;
+	height: 34px;
+	background: #f4722e;
+}
+.weibo-top-img-guanzhu span{
+	float: left;
+	width: 24px;
+	height: 34px;
+	background: #f4722e;
+	margin-left: 2px;
+	line-height: 30px;
+	margin-left: 5px;
+}
+.weibo-top-img-guan-right{
+	margin-left: 6px;
+}
+.weibo-top-img-guan-right a{
+	background: #5f636d;
+}
+.weibo-top-img-guan-right span{
+	background: #5f636d;
+	line-height: 34px;
+}
+.weibo-top-img-bottom{
+	width: 552px;
+	height: 40px;
+	padding: 0 184px;
+	background: white;
+}
+.weibo-top-img-bottom span{
+	width: 276px;
+	height: 43px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	line-height: 43px;
+}
+.weibo-conten{
+	width: 920px;
+}
+.weibo-left{
+	width: 300px;
+	float: left;
+}
+.weibo-left-nav{
+	width: 300px;
+	height: 35px;
+	margin-bottom: 16px;
+	background: white;
+	padding: 11px 0;
+}
+.weibo-left-nav a{
+	color: black;
+	display: block;
+	float: left;
+	width: 99px;
+	height: 35px;
+	font-size: 14px;
+	text-align: center;
+	border-right:1px solid #d9d9d9;
+}
+.weibo-left-nav h1{
+	font-size: 18px;
+	font-weight: 400;
+}
+.weibo-left-nav a p{
+	 color: #808080;
+	 font-size: 12px;
+}
+.weibo-left-box1{
+	width: 300px;
+	height: 228px;
+	background: white;
+	margin-bottom: 20px;
+}
+.weibo-left-box1-top{
+	height: 50px;
+	padding: 16px 16px 10px 16px;
+	border-bottom: 1px solid #f2f2f5;
+}
+.weibo-left-box1-top p{
+	font-size: 12px;
+	color: #333;
+	margin-bottom: 7px;
+}
+.weibo-left-box1-top p a:nth-child(1){
+	display: block;
+	width: 86px;
+    height: 28px;
+	float: left;
+	padding-right: 10px;
+	background: url(../img/官方微博.img/icon_co.png) no-repeat;
+	background-position: -60px -30px;
+	border-right: 1px solid #d9d9d9;
+}
+.weibo-left-box1-top p a:nth-child(2){
+	display: block;
+	float: left;
+	width: 25px;
+    text-align: center;
+    background: #ffb400;
+    border-radius: 8px;
+	padding: 0 5px 0 3px;
+	line-height: 14px;
+	font-size: 12px;
+    color: #fff;
+	font-style: italic;
+	margin:7px 0 0 10px ;
+}
+.weibo-left-box1 ul{
+	padding: 0 16px;
+}
+.weibo-left-box1 ul li{
+	padding: 8px 0 5px 0;
+    border-bottom: 1px solid #f2f2f5;
+    line-height: 18px;
+	font-size: 12px;
+	height: 24px;
+}
+.weibo-left-box1 ul em{
+	 color: #696e78;
+	 margin-right: 5px;
+}
+.weibo-left-box1 ul font{
+	color: #696e78;
+}
+.weibo-left-box1 ul span{
+	display: inline-block;
+	vertical-align: top;
+	width: 243px;
+	height: 18px;
+	color: #333;
+}
+.weibo-left-box1-top-font{
+	float: right;
+}
+.weibo-more{
+	width: 300px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: #333;
+	border-top: 1px solid #d9d9d9;
+	font-size: 12px;
+}
+.weibo-left-box2{
+	width: 300px;
+	height: 393px;
+	background: white;
+	margin-bottom: 20px;
+}
+.weibo-left-box-h1{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 38px;
+	padding: 0 16px;
+	height: 38px;
+	width: 268px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.weibo-left-box2-a{
+	display: block;
+	width: 300px;
+	height: 116px;
+	overflow: hidden;
+}
+.weibo-left-box2-a img{
+	width: 288px;
+	padding:6px;
+	height: auto;
+    min-height: 116px;
+}
+.weibo-left-box-p{
+	line-height: 18px;
+  max-height: 36px;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 8px 16px;
+}
+.weibo-left-box3{
+	width: 300px;
+	height: 340px;
+	margin-bottom: 20px;
+	background: white;
+}
+.weibo-left-box3-guanzhu{
+	width: 300px;
+	height: 133px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.weibo-left-box3-guanzhu-box{
+	width: 50px;
+	height: 72px;
+	margin: 15px 0 0 22px;
+	float: left;
+}
+.weibo-left-box3-guanzhu-box:nth-child(1){
+	margin-left: 0px;
+}
+.weibo-left-box3-guanzhu-box a{
+	display: block;
+	position: relative;
+}
+.weibo-left-box3-guanzhu-box .weibo-top-img-log-i{
+	bottom: 1px;
+	right: -3px;
+}
+.weibo-left-box3-guanzhu-box a img{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.weibo-left-box3-guanzhu-box span{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+	color: #333;
+	width: 50px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.weibo-left-box4{
+	width: 300px;
+	height: 382px;
+	overflow: hidden;
+	background: white;
+	margin-bottom: 20px;
+}
+.weibo-left-box4-img{
+	width: 288px;
+	height: 294px;
+	padding: 6px;
+}
+.weibo-left-box4-img-box{
+	width: 90px;
+	height: 90px;
+	margin: 0 6px 6px 0;
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+.weibo-left-box4-img-box img{
+	width: 100%;
+	height: 100%;
+}
+.weibo-left-box4-img-box:nth-child(1){
+	width: 186px;
+	height: 186px;
+}
+.weibo-left-box5{
+	width: 300px;
+	height: 404px;
+	background: white;
+	/* position: static;
+	top: 0; */
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.weibo-left-box5 img{
+	width: 100%;
+	height: 1239px;
+}
+.weibo-right{
+	width: 600px;
+	float: left;
+	margin-left: 20px;
+}
+.weibo-right-box1{
+	width: 600px;
+	background: white;
+	margin-bottom: 20px;
+	border-radius: 2px;
+}
+.weibo-right-box1-conten{
+	width: 560px;
+	padding: 20px 20px 4px;
+}
+.weibo-right-log{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+}
+.weibo-right-log img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.weibo-right-box1-right{
+	width: 500px;
+	float: left;
+}
+.weibo-right-box1-right-h1{
+	font-size: 14px;
+	font-weight: 700;
+	color: #333;
+	padding-left: 3px;
+}
+.weibo-right-box1-right-h1 i{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 3px 0 0px 3px;
+	background: url(../img/官方微博.img/icon_co.png) no-repeat;
+	background-position: 0 0;
+}
+.weibo-right-box1-right p{
+	color: #808080;
+	font-size: 12px;
+	margin: 7px 0;
+}
+.weibo-right-box1-right span{
+	padding: 1px 0 3px;
+	line-height: 23px;
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 5px;
+}
+.weibo-right-box1-right span font{
+	color: cornflowerblue;
+}
+.weibo-right-box1-right span em img{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	vertical-align: top;
+}
+.weibo-right-box1-right-img{
+	width: 342px;
+	/* height: 342px; */
+}
+.weibo-right-box1-right-img a{
+	display: block;
+	width: 110px;
+    height: 110px;
+    margin: 4px 0 0 4px;
+	float: left;
+	overflow: hidden;
+}
+.weibo-right-box1-right-img .weibo-right-box1-right-imglong img{
+	width: 100%;
+	height: auto;
+}
+.weibo-right-box1-right-img a img{
+	width: 100%;
+	height: 100%;
+}
+.weibo-right-box1-right-ul{
+	width: 600px;
+	height: 39px;
+	border-top: 1px solid #f2f2f5;
+}
+.weibo-right-box1-right-ul li{
+	width: 149px;
+	height: 22px;
+	margin: 7px 0;
+	border-right: 1px solid #d9d9d9;
+	float: left;
+	color: #808080;
+	font-size: 12px;
+}
+.weibo-right-box1-right-ul li:nth-child(4){
+	border-right: none;
+}
+.weibo-right-box1-right-ul p{
+	text-align: center;
+}
+.weibo-right-box1-right-ul li i{
+	margin-right: 3px;
+}
+.weibo-right-box1 .weibo-right-box3-right-imga{
+	width: 167px;
+	height: 233px;
+}
+.weibo-right-box1 .weibo-right-box4-right-imga{
+	width: 233px;
+	height: 176px;
+}
+.weibo-footer{
+	width: 100%;
+	height: 354px;
+	background: white;
+}
+.footer-link{
+	width: 840px;
+	height: 160px;
+    margin: 0 auto;
+    padding: 20px 0 10px 80px;
+}
+.footer-link dl{
+	float: left;
+    display: inline;
+    margin: 0 50px 0 0;
+}
+.footer-link dl dt{
+	font-size: 16px;
+    padding: 0 0 15px;
+    width: 138px;
+    overflow: hidden;
+}
+.footer-link dl dd a{
+	display: inline-block;
+    margin: 0 0px 5px 0;
+	width: 76px;
+	color: #808080;
+	font-size: 12px;
+}
+.footer-link dl dd img{
+	width: 79px;
+	display: inline-block;
+    margin: 0 20px 5px 10px;
+	float: left;
+}
+.weibo-footer-text{
+	line-height: 1em;
+    margin-bottom: 10px;
+	background-color: #f2f2f5;
+	padding: 30px 0;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+.weibo-footer-text p{
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.weibo-footer-text p a{
+	margin-right: 20px;
+	color: #808080;
+}
+.icon-arrow em{
+	display: inline-block;
+    font-size: 20px;
+    width: 26px;
+    height: 30px;
+    line-height: 30px;
+	text-align: center;
+    overflow: hidden;
+    color: #fff;
+	position: fixed;
+	right: 253px;
+	bottom: 90px;
+	background: #3870a9;
+	opacity: 0.6;
+	padding: 10px;
+}
+.icon-arrow em:hover{
+	opacity: 1;
+}

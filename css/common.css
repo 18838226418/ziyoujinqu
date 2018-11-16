@@ -1,0 +1,316 @@
+/*初始化css样式表*/
+html,body{
+	height: 100%;width: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {margin: 0;padding: 0;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+input{border:0; outline:none;}
+a { text-decoration:none; color: white; } 
+/*a:hover { text-decoration:underline; }*/ 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+/*css为clearfix，清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    zoom:1;/*IE/7/6*/
+}
+.warp{
+	width: 100%;
+	/* overflow: hidden; */
+}
+.header{
+	width: 100%;
+	height: 40px;
+}
+.heart{
+	width: 1000px;
+	margin: 0 auto;
+}
+.log{
+	width: 138px;
+	height: 38px;
+	float: left;
+	margin-top: 2px;
+}
+.nav-ul{
+	width: 560px;
+	height: 40px;
+	float: right;
+	position: relative;
+}
+.nav-a {
+	display: inline-block;
+	vertical-align: top;
+}
+.nav-a:nth-child(1){
+	margin-left: 130px;
+}
+.nav-a i{
+    width: 7px;
+    height: 7px;
+	display: inline-block;
+	vertical-align: top;
+	background: url(../img/xoyo_sprite.png) no-repeat;
+	background-position: 0 -18px;
+	margin-top: 20px;
+}
+.nav-a .icon-nav-a{
+	background-position: 0 0;
+}
+.nav-a a{
+	padding: 0 16px;
+    height: 37px;
+    color: #555;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 13px;
+	line-height: 40px;
+}
+.nav-ul .nav-a-bg{
+	border-bottom:3px solid #E94A37;
+	background: rgba(0,0,0,.05);
+}
+.nav-a-bg a{
+	color: #E94A37;
+}
+.nav-dis{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 560px;
+	background: #f6fafc;
+	z-index: 10;
+}
+.nav-dis ul{
+	margin-left: 17px;
+	padding: 8px 10px 0;
+  display: block;
+  width: 149px;
+  border-right: #eeece8 solid 1px;
+}
+.nav-ul2{
+	margin-top: 30px;
+}
+.nav-dis ul li{
+	font-size: 12px;
+	line-height: 26px;
+	color: #615d5e;
+}
+.nav-dis ul li span{
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-right: 25px;
+	background: url(../img/xoyo_sprite.png) no-repeat;
+	background-position: 0px -47px;
+}
+.nav-dis ul li .icon-nav-span{
+	background-position: 0px -91px;
+}
+.nav-dis ul:nth-child(3){
+	border-right: none;
+}
+.nav-dis ul li:nth-child(1){
+	color: #e94a37;
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-dis ul{
+	float: left;
+}
+.nav-dis ul li:hover{
+	color: #B22222;
+	cursor: pointer;
+}
+.header-1{
+	width: 100%;
+	background-color: rgba(17, 21, 33, 0.7);
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+.header1-ul{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+}
+.header-1 li{
+	height: 77px;
+	width: 128px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 20px;
+	color:white;
+}
+.header1-ul  .line{
+	border-bottom: 2px solid orangered;
+}
+.header1-ul li p{
+	font-size: 18px;
+	padding-top: 18px;
+}
+.header-1 li a{
+	font-size: 12px;
+	margin-top:5px ;
+}
+.header-1 .header-1-log{
+	width: 228px;
+}
+.header1-dis2-ul  p{
+	font-size: 16px;
+    line-height: 33px;
+	color: white;
+    font-family: 'Microsoft YaHei';
+}
+.warp .header1-dis2-ul  p a{
+	font-size: 16px;
+    line-height: 33px;
+	color: white;
+    font-family: 'Microsoft YaHei';
+}
+.dis2{
+	display: none;
+}
+.header1-dis2-ul  p:hover{
+	color: orangered;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.header1-dis2-ul{
+	width: 1200px;
+	margin: 0 auto;
+	height: 190px;
+}
+.header1-dis2-ul li:nth-child(1){
+	margin-left: 254px;
+}
+.shouye-footer1{
+	width: 100%;
+	height: 190px;
+	background: #222;
+}
+.shouye-footer2{
+	width: 100%;
+	height: 180px;
+	background: #222;
+}
+.shouye-footer-img{
+	width: 1200px;
+	height: 190px;
+	margin: 0 auto;
+}
+.shouye-footer-heart{
+	width: 855px;
+	height: 180px;
+	margin: 0 auto;
+	color: #555;
+	padding-left:30px ;
+}
+.shouye-footer2-logo{
+	width: 199px;
+	height: 36px;
+	display: inline-block;
+	vertical-align: top;
+}
+.shouye-footer2-logo a{
+	display: inline;
+}
+.shouye-footer2-span{
+	width: 330px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 30px;
+}
+.shouye-footer2-span span{
+	padding: 0 7px 0 2px;
+}
+.shouye-footer-heart i img{
+	width: 11.2px;
+	height: 12px;
+	display: inline-block;
+	vertical-align: top;
+}
+.shouye-footer-heart p{
+	font-size: 9px;
+	margin: 7px 0;
+}
+.shouye-footer-p{
+	width: 595px;
+	height: 35px;
+	display: inline-block;
+	vertical-align: top;
+}
+.gonggao-bar1{
+	width: 326px;
+	float: left;
+}
+.gonggao-bar1-box1{
+	width: 326px;
+	height: 175px;
+}
+.gonggao-bar1-box2{
+	width: 326px;
+	height: 337px;
+}
+.gonggao-bar1-box2 a{
+	display: block;
+	background: url(../img/公告.img/lbar_btn1.png) no-repeat center center #181818;
+    width: 324px;
+    height: 83px;
+    margin: 0 auto;
+	border: 1px solid #999;
+}
+.gonggao-bar1-box2 a:nth-child(2){
+	background: url(../img/公告.img/lbar_btn2.png) no-repeat center center #181818;
+}
+.gonggao-bar1-box2 a:nth-child(3){
+	background: url(../img/公告.img/lbar_btn3.png) no-repeat center center #181818;
+}
+.gonggao-bar1-box2 a:nth-child(4){
+	background: url(../img/公告.img/lbar_btn4.png) no-repeat center center #181818;
+}
+.gonggao-bar1-box3{
+	width: 326px;
+}
+.gonggao-bar1-box3 a{
+	width: 326px;
+	height: 160px;
+	display: block;
+	margin-top: 20px;
+}
+.gonggao-bar1-box3 a:nth-child(1){
+	background: url(../img/公告.img/lbar_btn5.jpg);
+}
+.gonggao-bar1-box3 a:nth-child(2){
+	background: url(../img/公告.img/lbar_btn6.jpg);
+}
+.gonggao-bar1-box3 a:nth-child(3){
+	background: url(../img/公告.img/lbar_btn7.jpg);
+}

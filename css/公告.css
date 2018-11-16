@@ -1,0 +1,134 @@
+.gonggao-connten{
+	margin: 560px auto 0;
+	width: 1200px;
+}
+.gonggao-bar2{
+	width: 872px;
+	height: 1200px;
+	float: left;
+	background: white;
+}
+.gonggao-bar2-title{
+	width: 872px;
+	height: 62px;
+	text-indent: 20px;
+	line-height: 62px;
+	border-bottom: 1px solid #e7e7e7;
+	color: #6d6d6d;
+    font-size: 14px;
+}
+.gonggao-bar2-nav{
+	height: 22px;
+	margin: 45px 0 45px 22px;
+}
+.gonggao-bar2-nav li{
+	float: left;
+	width: 192px;
+	height: 34px;
+	border: 1px solid #e7e7e7;
+	margin: 0 5px;
+	color: black;
+	line-height: 34px;
+	text-align: center;
+	cursor: pointer;
+}
+.gonggao-bar2-posi{
+	position: relative;
+	width: 872px;
+}
+.gonggaobar2-bos{
+	width: 872px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* display: none; */
+}
+.gonggao-bar2-nav li:hover{
+	border: 1px solid #f3622f;
+}
+.warp .gonggao-bar2-nav-active{
+	border: 1px solid #f3622f;
+}
+.gonggao-bar2-box{
+	width: 816px;
+	height: 155px;
+    border-bottom: 1px solid #e7e7e7;
+	margin: 0px 0px 30px 26px;
+}
+.gonggao-bar2-box-img{
+	width: 200px;
+	height: 120px;
+	float: left;
+}
+.gonggao-bar2-box-img img{
+	width: 100%;
+}
+.gonggao-bar2-box-text{
+	margin-left: 20px;
+	width: 575px;
+	height: 119px;
+	float: left;
+}
+.gonggao-bar2-box-text p{
+	font-size: 16px;
+    color: #f3622f;
+    font-weight: 100;
+}
+.gonggao-bar2-box-text span{
+	display: block;
+	font-size: 14px;
+    color: #404040;
+    margin: 20px 0 0 0;
+    height: 45px;
+}
+.gonggao-bar2-box-text a{
+	display: block;
+	width: 144px;
+	height: 26px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 26px;
+	text-align: center;
+	background: #f3622f;
+}
+.shipinbar2-box{
+	width: 250px;
+	height: 172px;
+	float: left;
+	margin: 0 14px 20px 0;
+}
+.shipinbar2-img{
+	width: 250px;
+	height: 140px;
+	position: relative;
+}
+.shipinbar2-img a{
+	display: block;
+	width: 62px;
+	height: 62px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -31px;
+	margin-left: -31px;
+}
+.shipinbar2-box p{
+	margin-top: 12px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	color: #40424d;
+}
+.gonggaobar2-bos .shipinbar2-box:nth-child(3n+1){
+	margin-left: 22px;
+}
+.gonggaobar2-bos .bizhibar2-box:nth-child(2n-1){
+	margin-left: 22px;
+}
+.bizhibar2-box{
+	width: 378px;
+	height: 212px;
+	float: left;
+	margin: 0 20px 20px 0;
+}

@@ -1,0 +1,201 @@
+.center-conten{
+	width: 100%;
+	height: 3672px;
+	background: url(../img/进入官网.img/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-nav{
+	width: 1000px;
+	height: 84px;
+	margin:  0 auto;
+	overflow: hidden;
+}
+.center-nav li{
+	width: 155px;
+	margin-right: 40px;
+	height: 81px;
+	float: left;
+	cursor: pointer;
+}
+.center-nav li:hover{
+	border-bottom: 3px solid #E98333;
+}
+.center-nav li:nth-child(1){
+	background: url(../img/进入官网.img/header_btn4.png) no-repeat;
+}
+.center-nav li:nth-child(2){
+	background: url(../img/进入官网.img/header_btn2.png) no-repeat;
+}
+.center-nav li:nth-child(3){
+	background: url(../img/进入官网.img/header_btn1_h.png) no-repeat;
+	height: 84px;
+}
+.center-nav li:nth-child(4){
+	background: url(../img/进入官网.img/header_btn3.png) no-repeat;
+}
+.center-nav li:nth-child(5){
+	background: url(../img/进入官网.img/header_btn5.png) no-repeat;
+}
+.center-video{
+	width: 100%;
+	height: 844px;
+	position: relative;
+}
+.center-video-posi{
+	width: 844px;
+	height: 388px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left:-422px;
+	margin-top: -194px;
+	background: url(../img/进入官网.img/slogan.png);
+}
+.center-video-posi-cricle{
+	width: 74px;
+	height: 74px;
+	position: absolute;
+	top: 194px;
+	left: 171px;
+	background: url(../img/进入官网.img/v_roll.png) no-repeat;
+	animation: ani 5s linear infinite;
+}
+@keyframes ani{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+.center-video-posi-box2{
+	background: url(../img/进入官网.img/btn_bg.png) no-repeat center 0;
+    height: 100px;
+    width: 1176px;
+    bottom: -17px;
+    left: 50%;
+    margin-left: -588px;
+	position: absolute;
+}
+.center-video-posi-box2 a{
+	width: 272px;
+	height: 122px;
+	display: block;
+	float: left;
+	margin-right: 29px;
+}
+.center-video-posi-box2 a:hover{
+    animation: sca 2s infinite linear;
+}
+.center-video-posi-box2 a:nth-child(4){
+	margin-right: 0px;
+}
+@keyframes sca{
+	from{transform: scale(1);}
+	to{transform: scale(1.3);}
+}
+.center-heart{
+	width: 900px;
+	margin: 0 auto;
+}
+.center-diy{
+	width: 900px;
+	height: 850px;
+	background: url(../img/进入官网.img/bar2.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.center-diy-box{
+	width: 794px;
+	height: 447px;
+	background: url(../img/进入官网.img/shipin_bg.jpg) no-repeat;
+    margin-top: 200px;
+	overflow: hidden;
+}
+.center-diy-box-pos{
+	width: 93px;
+	height: 93px;
+	margin: 170px auto 0;
+	background: url(../img/进入官网.img/b_shipin.png) no-repeat;
+}
+.center-bianji{
+	width: 838px;
+	height: 849px;
+	background: url(../img/进入官网.img/bar3.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.center-bianji a{
+	display: block;
+	width: 630px;
+	height: 170px;
+	position: absolute;
+	top: 278px;
+	left: 190px;
+}
+.center-bianji a:nth-child(1){
+	background: url(../img/进入官网.img/bj1.png) no-repeat;
+}
+.center-bianji a:nth-child(2){
+	top: 460px;
+	left: 260px;
+	background: url(../img/进入官网.img/bj2.png) no-repeat;
+}
+.center-bianji a:nth-child(3){
+	top: 640px;
+	left: 334px;
+	background: url(../img/进入官网.img/bj3.png) no-repeat;
+}
+.center-shipin{
+	width: 832px;
+	height: 770px;
+	background: url(../img/进入官网.img/bar4.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.center-shipin-box{
+	width: 900px;
+	height: 269px;
+	margin-top: 364px;
+}
+.center-shipin-box a{
+	width: 208px;
+	height: 116px;
+	float: left;
+}
+.center-shipin-box a:nth-child(1){
+	background: url(../img/进入官网.img/s1.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-shipin-box a:nth-child(2){
+	background: url(../img/进入官网.img/s2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-shipin-box a:nth-child(3){
+	background: url(../img/进入官网.img/s3.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-shipin-box a:nth-child(4){
+	background: url(../img/进入官网.img/s4.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-shipin-box a:nth-child(5){
+	background: url(../img/进入官网.img/s5.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-shipin-box a:nth-child(6){
+	background: url(../img/进入官网.img/s6.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-shipin-box a:nth-child(7){
+	background: url(../img/进入官网.img/s7.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-shipin-box a:nth-child(8){
+	background: url(../img/进入官网.img/s8.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.center-footer-img{
+	width: 1100px;
+	height: 276px;
+	margin: 0 auto;
+	background: url(../img/进入官网.img/bar5.jpg) no-repeat;
+}
